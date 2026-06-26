@@ -1,0 +1,917 @@
+<!DOCTYPE html><meta charset=utf-8><meta name=viewport content="initial-scale=1, width=device-width"><link rel="stylesheet" href="/repo.1638de86.css?v=27"><link rel="stylesheet" href="/repo.dd6c723c.css?v=27"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300;400&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,600&amp;display=swap"><style>.dropdown{cursor:pointer;justify-content:center;align-items:center;display:flex;position:relative}.dropdown-content{z-index:9999;text-align:left;background-color:#08201a;border:1px solid #b3a66c;border-radius:4px;min-width:220px;padding:8px 0;display:none;position:absolute;top:100%;left:50%;transform:translate(-50%);box-shadow:0 8px 16px #00000059}.dropdown-content a{text-transform:uppercase;letter-spacing:.08em;padding:12px 20px;font-family:var(--font-kalnia),Kalnia,serif;font-size:12px;text-decoration:none;transition:background-color .2s,color .2s;display:block;color:#ffffffb8!important}.dropdown-content a:hover{background-color:#0c2921;color:#b3a66c!important}.dropdown:hover .dropdown-content{display:block}.header-nav a,.header-nav2 a,.header-nav7 a,.header-nav13 a,.header-nav25 a{color:inherit;text-decoration:none;transition:color .2s}.header-nav a:hover,.header-nav2 a:hover,.header-nav7 a:hover,.header-nav13 a:hover,.header-nav25 a:hover{color:#b3a66c!important}.dropdown::after{content:" \25be";font-size:10px;margin-left:4px;transition:transform .2s;display:inline-block}.dropdown:hover::after,.dropdown.open::after{transform:rotate(180deg)}
+/* Ultra-specific logo style rules to override any compiled CSS */
+header img.brand-name-and-style-1,
+header img.brand-name-and-style-12,
+header img.brand-name-and-style-15,
+header img.kavita-khosla-parent,
+header img.kavita-khosla-group,
+header img.kavita-khosla-container,
+header img.kavita-khosla-parent3 {
+  width: 208px !important;
+  height: 70px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+  /* Mobile Dropdown Styling overrides */
+  .dropdown:hover .dropdown-content {
+    display: none !important;
+  }
+  .dropdown {
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+    padding: 0 !important;
+    height: auto !important;
+    flex-direction: unset !important;
+  }
+  .dropdown .home, .dropdown .home2, .dropdown .home7,
+  .dropdown .home13, .dropdown .home25 {
+    display: inline-block !important;
+    cursor: pointer !important;
+  }
+  .dropdown::after {
+    display: none !important;
+  }
+  .dropdown .home::after, .dropdown .home2::after,
+  .dropdown .home7::after, .dropdown .home13::after,
+  .dropdown .home25::after {
+    content: " ▾" !important;
+    font-size: 10px !important;
+    margin-left: 4px !important;
+    transition: transform .2s !important;
+    display: inline-block !important;
+  }
+  .dropdown.open .home::after, .dropdown.open .home2::after,
+  .dropdown.open .home7::after, .dropdown.open .home13::after,
+  .dropdown.open .home25::after {
+    transform: rotate(180deg) !important;
+  }
+  .dropdown-content {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+    display: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .dropdown.open .dropdown-content {
+    display: block !important;
+    background-color: transparent !important;
+  }
+  .dropdown-content a {
+    color: #08201a !important;
+    padding: 8px 0 !important;
+    display: block !important;
+    text-align: center !important;
+    font-family: var(--font-kalnia), Kalnia, serif !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    background: transparent !important;
+  }
+
+  .homepage {
+    height: auto !important;
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+  }
+  .frame-group {
+    height: auto !important;
+    min-height: unset !important;
+    position: relative !important;
+  }
+  .frame-section {
+    position: relative !important;
+    height: auto !important;
+    width: 100% !important;
+    top: auto !important;
+    left: auto !important;
+  }
+  header {
+    height: 70px !important;
+    padding: 0 16px !important;
+    position: relative !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  header div.kavita-khosla-parent,
+  header div.kavita-khosla-group,
+  header div.kavita-khosla-container,
+  header div.kavita-khosla-parent3 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+  }
+  header img.brand-name-and-style-1,
+  header img.brand-name-and-style-12,
+  header img.brand-name-and-style-15,
+  header img.kavita-khosla-parent,
+  header img.kavita-khosla-group,
+  header img.kavita-khosla-container,
+  header img.kavita-khosla-parent3 {
+    top: 0 !important;
+    position: relative !important;
+    margin: 0 auto !important;
+    display: block !important;
+    width: 208px !important;
+    height: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+  }
+  .hamburger-btn {
+    display: flex !important;
+    left: 16px !important;
+    right: auto !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+  .hamburger-btn span {
+    background-color: #08201a !important;
+  }
+  .dropdown.header-nav {
+    padding: 0 !important;
+  }
+  img.image-4-icon {
+    position: relative !important;
+    width: 100% !important;
+    height: 280px !important;
+    object-fit: cover !important;
+    object-position: left center !important;
+  }
+  .image-3-parent, .image-3-group {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    padding: 0 !important;
+    height: auto !important;
+    min-height: unset !important;
+    background-color: #08201a !important;
+  }
+  .frame-parent3, .frame-parent5 {
+    position: relative !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 40px 20px !important;
+    background-color: #08201a !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .diamonds-solitaires-designe-group {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  .diamonds-solitaires-designe-group h2.designers-passionate-collectio,
+  .diamonds-solitaires-designe-group h2.natural-diamonds {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+  .frame-parent13 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: auto !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+  }
+  .frame-wrapper2 {
+    width: 100% !important;
+    height: auto !important;
+    box-sizing: border-box !important;
+    padding: 60px 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .frame-parent14, .frame-parent15 {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 24px !important;
+  }
+  .frame-child41, .frame-child42 {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  .frame-child43 {
+    width: 100% !important;
+    height: 380px !important;
+    object-fit: cover !important;
+    display: block !important;
+    position: relative !important;
+    margin: 0 !important;
+  }
+  .nav-natural-diamonds {
+    display: none !important;
+  }
+}
+</style><body>
+    <div class=homepage>
+      <header class=frame-parent>
+        <input type=checkbox id=menu-toggle class=menu-toggle-chk>
+        <label for=menu-toggle class=hamburger-btn>
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class=kavita-khosla-parent>
+          <div class=kavita-khosla>KAVITA KHOSLA</div>
+          <img class=brand-name-and-style-1 alt src=/brand-name-and-style-1@2x.8d348f47.png>
+        </div>
+        <div class=link>
+          <div class=link2>
+            <div class=header-nav>
+              <a class=home href=/index.html>Home</a>
+            </div>
+            <div class=header-nav>
+              <a class=home href=/about-us/about-us.html>ABOUT US</a>
+            </div>
+            <div class="header-nav nav-natural-diamonds">
+              <a class=home3 href=/natural-solitaire-and-diamonds/natural-solitaire-and-diamonds.html>NATURAL DIAMOND / SOLITAIRE</a>
+            </div>
+            <div class="dropdown header-nav">
+              <div class=home>COLLECTIONS</div>
+              <div class=dropdown-content>
+                <a href=/lab-grown-diamonds/lab-grown-diamonds.html>Lab Grown Diamonds</a>
+                <a href=/malana-collection/malana-collection.html>Malana Collection</a>
+                <a href=/onzee-collection/onzee-collection.html>Onzee Collection</a>
+                <a href=/pierre-collection/pierre-collection.html>Pierre Collection</a>
+                <a href=/thia-collection/thia-collection.html>Thia Collection</a>
+              </div>
+            </div>
+            <div class=header-nav>
+              <a class=home href=/our-policies/our-policies.html>OUR POLICIES</a>
+            </div>
+            <div class=header-nav>
+              <a class=home href=/contact-us/contact-us.html>CONTACT US</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class=frame-group>
+        <section class=frame-section>
+          <div class=rectangle-parent>
+            <div class=frame-inner></div>
+            <img class=dark-blue-plain-textured-backg-icon2 alt src=/dark-blue-plain-textured-background-fabric-block-prints-11@2x.d2bab2d1.png>
+
+            <section class=frame-parent2>
+              <div class=inspired-by-grace-parent>
+                <div class=inspired-by-grace>INSPIRED BY GRACE</div>
+                <div class=a-legacy-of-elegance-parent>
+                  <h1 class=a-legacy-of>A Legacy Of Elegance</h1>
+                  <div class=every-timeless-creation>
+                    Every timeless creation begins with a story. Our inspiration
+                    comes from the elegance, warmth and strength of the woman
+                    who shaped our journey.<br>Her grace continues to inspire
+                    every solitaire masterpiece we create.
+                  </div>
+                </div>
+              </div>
+              <img class=group-icon alt src=/Group-1.6ebcb607.svg>
+
+              <div class=inspired-by-our-container>
+                <i>Inspired by our beloved mother<br></i>
+                <i class=late-mrs-padma>Late. Mrs. Padma Rai</i>
+              </div>
+            </section>
+            <div class=ellipse-parent>
+              <div class=ellipse-div></div>
+              <div class=group-parent>
+                <img class=group-icon2 alt src=/Group2.69819e0e.svg>
+
+                <img class=image-2-icon alt src=/image-2@2x.e2d519f1.png>
+              </div>
+            </div>
+          </div>
+          <div class=frame-div>
+            <div class=group-group>
+              <img class=group-icon3 alt src=/Group1.c62a4eb7.svg>
+
+              <div class=in-this-beautiful-journey-bles-parent>
+                <div class=in-this-beautiful>
+                  &nbsp;In this beautiful journey blessed by our loving mother, All
+                  the loving mothers will be able to buy any jewellery artical
+                  from brand Kavitakhosla at 4% making charges only. All
+                  respected Guruji’s Sangat ji will also be levied 4% making
+                  charges on any Jewellery Artical purchased from Kavitakhosla
+                  brand. Respected Senior Citizens / Ex-Army and Serving Army
+                  personnel’s will also be getting to buy any jewellery artical
+                  at only 4% making charges.
+                </div>
+                <div class=we-salute-the>
+                  We salute the courage and resolute commitment of real hero’s
+                  who protect our borders under the most challenging conditions.
+                  Your courage and dedication keep our nation safe. We are for
+                  ever grateful. Thank you for serving with such honour, because
+                  of Indian Army we live and sleep peacefully.&nbsp;<br>Jai Hind
+                </div>
+              </div>
+              <img class=group-icon4 alt src=/Group1.c62a4eb7.svg>
+            </div>
+          </div>
+          <div class=image-3-parent>
+            <img class=image-3-icon alt src=/image-32@2x.98ec8bd9.png>
+
+            <img class=image-4-icon loading=lazy alt src=/image-41@2x.a3c7c652.png>
+
+            <section class=frame-parent3>
+              <div class=certified-natural-parent>
+                <div class=certified-natural>Certified Natural</div>
+                <div class=diamonds-solitaires-designe-parent>
+                  <h1 class=diamonds-solitaires>
+                    Diamonds &amp;<br>Solitaire's Designer<br>Jewellery
+                  </h1>
+                  <div class=every-timeless-creation>
+                    Savor the timeless beauty and authenticity of our<br>exquisite
+                    pieces, thoughtfully made for you to cherish.
+                  </div>
+                </div>
+              </div>
+              <button class=cta-primary>
+                <div class=explore-now>EXPLORE NOW</div>
+              </button>
+            </section>
+          </div>
+          <div class=diamonds-solitaires-designe-group>
+            <h2 class=designers-passionate-collectio>
+              Diamonds &amp; Solitaire's Designer Jewellery
+            </h2>
+            <div class=frame-parent4>
+              <div class=rectangle-group>
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-24@2x.f7f6bddf.png>
+
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-83@2x.f9e733e2.png>
+
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-52@2x.31f25f78.png>
+              </div>
+              <div class=rectangle-container>
+                <img class=frame-child4 loading=lazy alt src=/Rectangle-34@2x.1a544f49.png>
+
+                <img class=frame-child4 loading=lazy alt src=/Rectangle-94@2x.e2470b15.png>
+              </div>
+              <div class=rectangle-group>
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-43@2x.a76fd5bb.png>
+
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-72@2x.47eb7bad.png>
+
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-10@2x.54e02c8b.png>
+              </div>
+            </div>
+            <button class=cta-primary>
+              <div class=explore-now>EXPLORE COLLECTION</div>
+            </button>
+          </div>
+          <div class=image-3-group>
+            <img class=image-4-icon loading=lazy alt src=/image-31@2x.86c8359a.png>
+
+            <section class=frame-parent5>
+              <div class=certified-natural-parent>
+                <div class=certified-natural>Certified Natural</div>
+                <div class=diamonds-solitaires-designe-parent>
+                  <h1 class=diamonds-solitaires>
+                    Diamonds &amp;<br>Solitaire's Designer<br>Gold Jewellery
+                  </h1>
+                  <div class=every-timeless-creation>
+                    Savor the timeless beauty and authenticity of our<br>exquisite
+                    pieces, thoughtfully made for you to cherish.
+                  </div>
+                </div>
+              </div>
+              <button class=cta-primary>
+                <div class=explore-now>EXPLORE NOW</div>
+              </button>
+            </section>
+          </div>
+          <div class=diamonds-solitaires-designe-group>
+            <h2 class=designers-passionate-collectio>
+              Diamonds &amp; Solitaire's Designer Gold Jewellery
+            </h2>
+            <div class=frame-parent4>
+              <div class=rectangle-group>
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-23@2x.5fcbf53a.png>
+
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-53@2x.1a543561.png>
+
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-8@2x.bbb2c49f.png>
+              </div>
+              <div class=rectangle-container>
+                <img class=frame-child4 loading=lazy alt src=/Rectangle-3@2x.10cb819f.png>
+
+                <img class=frame-child4 loading=lazy alt src=/Rectangle-92@2x.64f62944.png>
+              </div>
+              <div class=rectangle-group>
+                <img class=frame-child14 alt src=/Rectangle-4@2x.ae95cfeb.png>
+
+                <img class=frame-child14 alt src=/Rectangle-7@2x.e64d6cd3.png>
+
+                <img class=frame-child14 alt src=/Rectangle-101@2x.99421453.png>
+              </div>
+            </div>
+            <button class=cta-primary>
+              <div class=explore-now>EXPLORE COLLECTION</div>
+            </button>
+          </div>
+          <div class=image-3-group>
+            <img class=image-4-icon loading=lazy alt src=/image-3@2x.61dac9bf.png>
+
+            <section class=frame-parent5>
+              <div class=certified-natural-parent>
+                <div class=certified-natural>Certified Natural</div>
+                <div class=diamonds-solitaires-designe-parent>
+                  <h1 class=diamonds-solitaires>
+                    Natural Diamond &amp;<br>Solitaire's &amp; Gold<br>Bracelets
+                  </h1>
+                  <div class=every-timeless-creation>
+                    Savor the timeless beauty and authenticity of our<br>exquisite
+                    pieces, thoughtfully made for you to cherish.
+                  </div>
+                </div>
+              </div>
+              <button class=cta-primary>
+                <div class=explore-now>EXPLORE NOW</div>
+              </button>
+            </section>
+          </div>
+          <div class=diamonds-solitaires-designe-group>
+            <h2 class=natural-diamonds>
+              Natural Diamonds &amp; Solitaire's &amp; Gold Bracelets
+            </h2>
+            <div class=frame-parent4>
+              <div class=rectangle-group>
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-82@2x.58464360.png>
+
+                <img class=frame-child14 alt src=/Rectangle-71@2x.4cd37666.png>
+
+                <img class=frame-child14 alt src=/Rectangle-104@2x.e8693a1e.png>
+              </div>
+              <div class=rectangle-container>
+                <img class=frame-child4 loading=lazy alt src=/Rectangle-33@2x.ee3423f4.png>
+
+                <img class=frame-child4 loading=lazy alt src=/Rectangle-93@2x.7417a480.png>
+              </div>
+              <div class=rectangle-group>
+                <img class=frame-child14 alt src=/Rectangle-41@2x.07fe22ce.png>
+
+                <img class=frame-child14 alt src=/Rectangle-51@2x.3bf009ec.png>
+
+                <img class=frame-child14 alt src=/Rectangle-22@2x.f3e374fd.png>
+              </div>
+            </div>
+            <button class=cta-primary>
+              <div class=explore-now>EXPLORE COLLECTION</div>
+            </button>
+          </div>
+          <div class=image-3-group>
+            <img class=image-4-icon loading=lazy alt src=/image-33@2x.d6323865.png>
+
+            <section class=frame-parent5>
+              <div class=certified-natural-parent>
+                <div class=certified-natural>Certified Natural</div>
+                <div class=diamonds-solitaires-designe-parent>
+                  <h1 class=diamonds-solitaires>
+                    Natural Diamonds <br>Solitaire's Gold<br>Necklaces
+                  </h1>
+                  <div class=every-timeless-creation>
+                    Savor the timeless beauty and authenticity of our<br>exquisite
+                    pieces, thoughtfully made for you to cherish.
+                  </div>
+                </div>
+              </div>
+              <button class=cta-primary>
+                <div class=explore-now>EXPLORE NOW</div>
+              </button>
+            </section>
+          </div>
+          <div class=diamonds-solitaires-designe-group>
+            <h2 class=designers-passionate-collectio>
+              Natural Diamonds &amp; Solitaire's Gold Necklaces
+            </h2>
+            <div class=frame-parent4>
+              <div class=rectangle-group>
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-74@2x.5de18463.png>
+
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-2@2x.4121bfe1.png>
+
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-81@2x.61c38c2a.png>
+              </div>
+              <div class=rectangle-container>
+                <img class=frame-child4 loading=lazy alt src=/Rectangle-31@2x.0e7561b8.png>
+
+                <img class=frame-child4 loading=lazy alt src=/Rectangle-9@2x.af711870.png>
+              </div>
+              <div class=rectangle-group>
+                <img class=frame-child14 alt src=/Rectangle-42@2x.6f55068f.png>
+
+                <img class=frame-child14 alt src=/Rectangle-5@2x.223cd6ad.png>
+
+                <img class=frame-child14 alt src=/Rectangle-103@2x.cac79b4e.png>
+              </div>
+            </div>
+            <button class=cta-primary>
+              <div class=explore-now>EXPLORE COLLECTION</div>
+            </button>
+          </div>
+          <div class=image-3-group>
+            <img class=image-4-icon loading=lazy alt src=/image-34@2x.22580e23.png>
+
+            <section class=frame-parent5>
+              <div class=certified-natural-parent>
+                <div class=certified-natural>Certified Natural</div>
+                <div class=diamonds-solitaires-designe-parent>
+                  <h1 class=diamonds-solitaires>
+                    Natural Diamonds &amp;<br>Solitaire's Gold<br>Earrings
+                  </h1>
+                  <div class=every-timeless-creation>
+                    Savor the timeless beauty and authenticity of our<br>exquisite
+                    pieces, thoughtfully made for you to cherish.
+                  </div>
+                </div>
+              </div>
+              <button class=cta-primary>
+                <div class=explore-now>EXPLORE NOW</div>
+              </button>
+            </section>
+          </div>
+          <div class=diamonds-solitaires-designe-group>
+            <h2 class=designers-passionate-collectio>
+              Natural Diamonds &amp; Solitaire's Gold Earrings
+            </h2>
+            <div class=frame-parent4>
+              <div class=rectangle-group>
+                <img class=rectangle-icon loading=lazy alt src=/Rectangle-54@2x.ecb5cfdf.png>
+
+                <img class=frame-child14 alt src=/Rectangle-21@2x.5b607dbb.png>
+
+                <img class=frame-child14 alt src=/Rectangle-84@2x.d59e4a06.png>
+              </div>
+              <div class=rectangle-container>
+                <img class=frame-child4 loading=lazy alt src=/Rectangle-32@2x.907a8b7e.png>
+
+                <img class=frame-child37 loading=lazy alt src=/Rectangle-91@2x.feb25109.png>
+              </div>
+              <div class=rectangle-group>
+                <img class=frame-child14 alt src=/Rectangle-44@2x.a1a443b7.png>
+
+                <img class=frame-child14 alt src=/Rectangle-73@2x.8be13022.png>
+
+                <img class=frame-child14 alt src=/Rectangle-102@2x.95fc3bc3.png>
+              </div>
+            </div>
+            <button class=cta-primary>
+              <div class=explore-now>EXPLORE COLLECTION</div>
+            </button>
+          </div>
+          <div class=frame-parent13>
+            <div class=frame-wrapper2>
+              <div class=frame-parent14>
+                <div class=frame-parent15>
+                  <img class=frame-child41 alt src=/Group-2.3ae06520.svg>
+
+                  <div class=certified-natural-parent>
+                    <div class=certified-natural6>Certified Natural</div>
+                    <div class=perfect-match-for-every-occasi-parent>
+                      <h1 class=perfect-match-for-every>
+                        Perfect Match<br>for Every Occasion
+                      </h1>
+                      <div class=coordinate-with-other>
+                        Coordinate with other pieces from the collection for a
+                        classic look
+                      </div>
+                    </div>
+                  </div>
+                  <img class=frame-child42 alt src=/Group-3.f935dc54.svg>
+                </div>
+                <button class=cta-primary>
+                  <div class=explore-now>DISCOVER THE SET</div>
+                </button>
+              </div>
+            </div>
+            <img class=frame-child43 loading=lazy alt src=/rectangle-11@2x.294bfabd.png>
+          </div>
+          <div class=designers-passionate-collectio-parent>
+            <h2 class=designers-passionate-collectio>
+              Designers Passionate Collection Crafted
+            </h2>
+            <div class=inspired-by-grace-parent>
+              <div class=rectangle-parent15>
+                <img class=frame-child44 loading=lazy alt src=/Rectangle-12@2x.8e871edd.png>
+
+                <img class=frame-child44 loading=lazy alt src=/Rectangle-131@2x.338059df.png>
+
+                <img class=frame-child44 loading=lazy alt src=/Rectangle-14@2x.12c02b3d.png>
+
+                <img class=frame-child44 alt src=/Rectangle-15@2x.fc3fa3bf.png>
+              </div>
+              <div class=rectangle-parent15>
+                <img class=frame-child44 loading=lazy alt src=/Rectangle-121@2x.14ead467.png>
+
+                <img class=frame-child44 loading=lazy alt src=/Rectangle-13@2x.ee53fe8c.png>
+
+                <img class=frame-child44 alt src=/Rectangle-141@2x.9518197a.png>
+
+                <img class=frame-child44 alt src=/Rectangle-151@2x.a4a3a504.png>
+              </div>
+            </div>
+            <button class=cta-primary>
+              <div class=explore-now>EXPLORE COLLECTION</div>
+            </button>
+          </div>
+          <div class=group-wrapper>
+            <img class=group-icon5 alt src=/Group.ccace882.svg>
+          </div>
+          <div class=our-complete-natural-diamonds-parent>
+            <h1 class=designers-passionate-collectio>
+              Our Complete Natural Diamonds and Solitare Range<br>is Fully
+              Certified and authenticated from IGI/GIA /DGLA /DU &amp;<br>Our Gold
+              Used has BIS &amp; HUID Hallmark on it
+            </h1>
+            <div class=frame-parent17>
+              <div class=image-4-parent>
+                <img class=image-4-icon2 loading=lazy alt src=/image-4@2x.f3f4991a.png>
+
+                <div class=image-5-parent>
+                  <img class=rectangle-icon loading=lazy alt src=/image-5@2x.86ced766.png>
+
+                  <img class=rectangle-icon loading=lazy alt src=/image-6@2x.8c88ef1c.png>
+                </div>
+              </div>
+              <div class=image-4-parent>
+                <img class=image-7-icon loading=lazy alt src=/image-7@2x.149c5217.png>
+
+                <img class=image-8-icon loading=lazy alt src=/image-8@2x.1a642ac5.png>
+              </div>
+            </div>
+          </div>
+          <div class=group-container>
+            <img class=group-icon5 alt src=/Group.ccace882.svg>
+          </div>
+          <div class=frequently-asked-questions-parent id=faq>
+            <h2 class=designers-passionate-collectio>
+              Frequently Asked Questions
+            </h2>
+            <div class=faq-item-parent>
+              <section class=faq-item>
+                <div class=what-types-of-diamonds-do-you-parent>
+                  <div class=what-types-of>
+                    WHAT TYPES OF DIAMONDS DO YOU OFFER?
+                  </div>
+                  <img class=frame-icon alt src=/Frame.033b85b4.svg>
+                </div>
+                <div class=we-specialize-exclusively>
+                  We specialize exclusively in certified natural diamonds daily
+                  hand picked, ensuring that each stone meets the highest
+                  standards of quality and authenticity. Our collection includes
+                  a range of sizes and cuts, allowing you to find the perfect
+                  diamond to cherish.
+                </div>
+              </section>
+              <div class=faq-item2>
+                <div class=what-types-of-diamonds-do-you-group>
+                  <div class=what-types-of>
+                    HOW CAN I BE SURE OF THE AUTHENTICITY OF MY DIAMOND
+                    PURCHASE?
+                  </div>
+                  <img class=frame-icon alt src=/Frame1.ca451626.svg>
+                </div>
+                <div class=we-specialize-exclusively2>
+                  We specialize exclusively in certified natural diamonds daily
+                  hand picked, ensuring that each stone meets the highest
+                  standards of quality and authenticity. Our collection includes
+                  a range of sizes and cuts, allowing you to find the perfect
+                  diamond to cherish.
+                </div>
+              </div>
+              <div class=faq-item2>
+                <div class=what-types-of-diamonds-do-you-group>
+                  <div class=what-types-of>
+                    DO YOU OFFER CUSTOMIZED JEWELRY ?
+                  </div>
+                  <img class=frame-icon alt src=/Frame1.ca451626.svg>
+                </div>
+                <div class=we-specialize-exclusively2>
+                  We specialize exclusively in certified natural diamonds daily
+                  hand picked, ensuring that each stone meets the highest
+                  standards of quality and authenticity. Our collection includes
+                  a range of sizes and cuts, allowing you to find the perfect
+                  diamond to cherish.
+                </div>
+              </div>
+              <div class=faq-item2>
+                <div class=what-types-of-diamonds-do-you-group>
+                  <div class=what-types-of>
+                    WHAT ARE YOUR CARE RECOMMENDATIONS FOR MY DIAMOND &amp; GOLD
+                    JEWELRY?
+                  </div>
+                  <img class=frame-icon alt src=/Frame1.ca451626.svg>
+                </div>
+                <div class=we-specialize-exclusively2>
+                  We specialize exclusively in certified natural diamonds daily
+                  hand picked, ensuring that each stone meets the highest
+                  standards of quality and authenticity. Our collection includes
+                  a range of sizes and cuts, allowing you to find the perfect
+                  diamond to cherish.
+                </div>
+              </div>
+              <div class=faq-item2>
+                <div class=what-types-of-diamonds-do-you-group>
+                  <div class=what-types-of>HOW DOES YOUR PRICING WORK?</div>
+                  <img class=frame-icon alt src=/Frame1.ca451626.svg>
+                </div>
+                <div class=we-specialize-exclusively2>
+                  We specialize exclusively in certified natural diamonds daily
+                  hand picked, ensuring that each stone meets the highest
+                  standards of quality and authenticity. Our collection includes
+                  a range of sizes and cuts, allowing you to find the perfect
+                  diamond to cherish.
+                </div>
+              </div>
+              <div class=faq-item2>
+                <div class=what-types-of-diamonds-do-you-group>
+                  <div class=what-types-of>WHAT IS YOUR RETURN POLICY?</div>
+                  <img class=frame-icon alt src=/Frame1.ca451626.svg>
+                </div>
+                <div class=we-specialize-exclusively2>
+                  We specialize exclusively in certified natural diamonds daily
+                  hand picked, ensuring that each stone meets the highest
+                  standards of quality and authenticity. Our collection includes
+                  a range of sizes and cuts, allowing you to find the perfect
+                  diamond to cherish.
+                </div>
+              </div>
+              <div class=faq-item2>
+                <div class=what-types-of-diamonds-do-you-group>
+                  <div class=what-types-of>
+                    CAN I TRACK MY ORDER ONCE I PLACE IT?
+                  </div>
+                  <img class=frame-icon alt src=/Frame1.ca451626.svg>
+                </div>
+                <div class=we-specialize-exclusively2>
+                  We specialize exclusively in certified natural diamonds daily
+                  hand picked, ensuring that each stone meets the highest
+                  standards of quality and authenticity. Our collection includes
+                  a range of sizes and cuts, allowing you to find the perfect
+                  diamond to cherish.
+                </div>
+              </div>
+              <div class=faq-item2>
+                <div class=what-types-of-diamonds-do-you-group>
+                  <div class=what-types-of>
+                    HOW DO I CARE FOR MY CERTIFIED DIAMOND?
+                  </div>
+                  <img class=frame-icon alt src=/Frame1.ca451626.svg>
+                </div>
+                <div class=we-specialize-exclusively2>
+                  We specialize exclusively in certified natural diamonds daily
+                  hand picked, ensuring that each stone meets the highest
+                  standards of quality and authenticity. Our collection includes
+                  a range of sizes and cuts, allowing you to find the perfect
+                  diamond to cherish.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=frame-parent18>
+            <section class=frame-parent19>
+              <div class=about-parent>
+                <div class=about>ABOUT</div>
+                <div class=footer-nav-parent>
+                  <div class=footer-nav>
+                  <a class=about-us href=/about-us/about-us.html>ABOUT US</a>
+                </div>
+                  <div class=footer-nav2>
+                  <a class=about-us2 href=/about-us/about-us.html>OUR TEAM</a>
+                </div>
+                  <div class=footer-nav2>
+                  <a class=about-us3 href=/about-us/about-us.html>OUR LEGACY</a>
+                </div>
+                </div>
+              </div>
+              <div class=about-parent>
+                <div class=about>SHOP</div>
+                <div class=footer-nav-parent>
+                  <div class=footer-nav2>
+                  <a class=about-us4 href=/lab-grown-diamonds/lab-grown-diamonds.html>COLLECTIONS</a>
+                </div>
+                  <div class=footer-nav2>
+                  <a class=about-us5 href=/natural-solitaire-and-diamonds/natural-solitaire-and-diamonds.html>NATURAL DIAMONDS</a>
+                </div>
+                  <div class=footer-nav2>
+                  <a class=about-us6 href=/natural-solitaire-and-diamonds/natural-solitaire-and-diamonds.html>SOLITAIRES</a>
+                </div>
+                </div>
+              </div>
+              <div class=about-parent>
+                <div class=about>SUPPORT</div>
+                <div class=footer-nav-parent>
+                  <div class=footer-nav>
+                  <a class=about-us7 href=/index.html#faq>FAQ</a>
+                </div>
+                  <div class=footer-nav2>
+                  <a class=about-us5 href=/contact-us/contact-us.html>BOOK APPOINTMENT</a>
+                </div>
+                  <div class=footer-nav2>
+                  <a class=about-us9 href=/contact-us/contact-us.html>CONTACT US</a>
+                </div>
+                </div>
+              </div>
+              <div class=about-parent>
+                <div class=about>LEGAL</div>
+                <div class=footer-nav-parent>
+                  <div class=footer-nav2>
+                  <a class=about-us10 href=/our-policies/our-policies.html>PRIVACY POLICY</a>
+                </div>
+                  <div class=footer-nav2>
+                  <a class=about-us11 href=/our-policies/our-policies.html>TERMS &amp; CONDITIONS</a>
+                </div>
+                  <div class=footer-nav2>
+                  <a class=about-us12 href=/our-policies/our-policies.html>PRODUCT SAFTEY</a>
+                </div>
+                </div>
+              </div>
+            </section>
+            <div class=kavita-khosla-2026-gst-no-parent>
+              <div class=kavita-khosla2>
+                © 2026 | gst nO. 06AJAPK5493J1Z0
+              </div>
+              
+              <div class=social-media-handle-nav-parent>
+                <div class=social-media-handle-nav>
+                <a class=instagram href=https://instagram.com target=_blank>Instagram</a>
+              </div>
+                <div class=social-media-handle-nav>
+                <a class=instagram2 href=https://twitter.com target=_blank>Twitter</a>
+              </div>
+                <div class=social-media-handle-nav>
+                <a class=instagram3 href=https://facebook.com target=_blank>Facebook</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  
+
+
+
+
+
+<!-- Mobile Dropdown Logic -->
+<script>
+(function() {
+  // Toggle dropdown on mobile click
+  document.addEventListener('click', function(e) {
+    if (window.innerWidth > 768) return;
+
+    var dropdown = e.target.closest('.dropdown');
+
+    if (dropdown) {
+      // Allow clicks on links inside dropdown-content to navigate
+      if (e.target.closest('.dropdown-content a')) return;
+
+      e.preventDefault();
+
+      var isOpen = dropdown.classList.contains('open');
+
+      // Close all open dropdowns
+      document.querySelectorAll('.dropdown.open').forEach(function(d) {
+        d.classList.remove('open');
+      });
+
+      // Open this one if it was closed
+      if (!isOpen) {
+        dropdown.classList.add('open');
+      }
+    } else {
+      // Clicked outside — close all
+      document.querySelectorAll('.dropdown.open').forEach(function(d) {
+        d.classList.remove('open');
+      });
+    }
+  });
+})();
+</script>

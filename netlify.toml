@@ -7,9 +7,8 @@ redirects = []
   [functions."*"]
 
 [build]
-publish = "/opt/build/repo"
-publishOrigin = "config"
-commandOrigin = "ui"
+  command = ""
+  publish = "."
 
   [build.environment]
 

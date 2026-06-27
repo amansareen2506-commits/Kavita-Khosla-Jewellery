@@ -7,7 +7,7 @@ redirects = []
   [functions."*"]
 
 [build]
-  command = ""
+  command = "echo 'Static Site'"
   publish = "."
 
   [build.environment]

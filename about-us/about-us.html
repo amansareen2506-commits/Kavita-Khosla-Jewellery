@@ -267,9 +267,16 @@ header.frame-parent{height:70px!important;padding:0 16px!important;position:rela
 
 /* Prevent combined footer link wrapping on desktop */
 @media screen and (min-width: 769px) {
-  .about-us4, .about-us5, .about-us18, .about-us17, .about-us29, .about-us53 {
+  .about-us4, .about-us5, .about-us6, .about-us17, .about-us18, .about-us28, .about-us29, .about-us53, .about-us54 {
     width: auto !important;
     white-space: nowrap !important;
+    position: static !important;
+  }
+  /* Force parent containers to have normal height and flow */
+  [class*="footer-nav"] {
+    height: auto !important;
+    position: static !important;
+    display: block !important;
   }
 }
 </style><style>@media screen and (max-width: 768px) { .meet-the-visionaries-of-fine-j-parent { width: 100% !important; padding: 40px 16px !important; box-sizing: border-box !important; } .frame-parent27 { width: 100% !important; gap: 24px !important; align-items: center !important; display: flex !important; flex-direction: column !important; } .frame-parent28, .frame-parent29 { display: flex !important; flex-direction: column !important; align-items: center !important; justify-content: center !important; width: 100% !important; gap: 24px !important; } .rectangle-parent20, .rectangle-parent24 { width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; display: flex !important; flex-direction: column !important; align-items: center !important; justify-content: center !important; text-align: center !important; flex: none !important; } .frame-child62 { width: 100% !important; height: auto !important; aspect-ratio: 1 / 1 !important; display: block !important; margin-left: auto !important; margin-right: auto !important; object-fit: cover !important; } .deepika-rai-parent, .founder-ceo-chief-design-off-parent { width: 100% !important; display: flex !important; flex-direction: column !important; align-items: center !important; justify-content: center !important; text-align: center !important; } .founder-ceo, .years-of-experience, .deepika-rai { width: 100% !important; text-align: center !important; } .home9 { display: inline-block !important; }

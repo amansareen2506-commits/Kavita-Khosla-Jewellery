@@ -492,9 +492,16 @@ header.frame-parent img.kavita-khosla-parent3 {
 
 /* Prevent combined footer link wrapping on desktop */
 @media screen and (min-width: 769px) {
-  .about-us4, .about-us5, .about-us18, .about-us17, .about-us29, .about-us53 {
+  .about-us4, .about-us5, .about-us6, .about-us17, .about-us18, .about-us28, .about-us29, .about-us53, .about-us54 {
     width: auto !important;
     white-space: nowrap !important;
+    position: static !important;
+  }
+  /* Force parent containers to have normal height and flow */
+  [class*="footer-nav"] {
+    height: auto !important;
+    position: static !important;
+    display: block !important;
   }
 }
 </style><body>
